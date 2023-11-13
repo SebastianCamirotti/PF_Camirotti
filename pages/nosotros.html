@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Links de las fuentes -->
         <!-- Dancing Script (Título) -->
@@ -16,8 +17,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
 
         <link rel="icon" href="../images/logo2.ico">
+        
+        <link rel="stylesheet" href="/css/bootstrap.css">
 
         <link rel="stylesheet" href="../css/style.css">
+
+        
     
         <title>Plastishop</title>
         
@@ -25,70 +30,85 @@
     
     <body>
     
-        <header>
+        <header id="inicio">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
     
-    <!-- Barra de navegación -->
-            <nav class="navegation">
-                <div class="logo_container">
-                    <img src="../images/logo.png" alt="logo_plastishop" class="logo"> <h1>Plastishop</h1>
-                    <p>Hacemos realidad tus ideas</p>
-                    
+                        <div class="logo_container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../images/logo.png" alt="logo_plastishop" class="logo">
+                                </div>
+                                <div class="col-md-6">
+                                    <h1>Plastishop</h1>
+                                    <p>Hacemos realidad tus ideas</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+    
+                        <!-- Barra de navegación -->
+                        <nav class="navbar navbar-expand-lg navegation">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="../pages/galeria_fotos.html">Galería de fotos</a></li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="../pages/personalizados.html">Personalizados</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Nosotros</a></li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="../pages/contacto.html">Contacto</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+    
+                    </div>
                 </div>
+            </div>
     
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="/index.html">Inicio</a></li>
-                    <li class="nav_item"><a href="../pages/galeria_fotos.html">Galería de fotos</a></li>
-                    <li class="nav_item"><a href="../pages/personalizados.html">Personalizados</a></li>
-                    <li class="nav_item"><a href="../pages/nosotros.html">Nosotros</a></li>
-                    <li class="nav_item"><a href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-    
-            
-            
-            
-    
-            
         </header>
 
     <main>
 
-        <article>
-
-            <h2>Así comenzó Plastishop</h2>
-
-            <!-- Descripción de como surge la empresa. -->
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque laboriosam nulla nemo culpa reiciendis accusamus nihil, quidem quam ullam eligendi optio quas quisquam suscipit veritatis, debitis in quibusdam id est!
-                Numquam, voluptates repudiandae molestias alias error explicabo quia fugit, esse illo accusamus quos maiores voluptatum eligendi molestiae. Autem nemo quisquam ipsam accusamus, corporis error ratione eum earum voluptatibus adipisci quae.
-                Distinctio earum excepturi labore ullam. Eius adipisci ratione culpa iste sequi optio obcaecati itaque aperiam reiciendis dignissimos. Animi id dolore voluptatem, esse perspiciatis ipsam incidunt eligendi vel minus sit expedita.
-            </p>
-
-        </article> 
+        <div class="container">
+            <!-- Primer artículo -->
+            <article>
+                <h2>Así comenzó Plastishop</h2>
+                <p class="historia">
+                    Plastishop comenzó como un simple pasatiempo, un hobby compartido entre amigos y conocidos. Inicialmente, todo giraba en torno a la plastificadora, una herramienta que transformaba ideas en material didáctico para maestras y educadores.
+                    Lo que empezó como un pequeño proyecto para hacer la enseñanza más colorida y creativa, pronto se convirtió en algo más grande.Con el tiempo, este modesto inicio evolucionó a medida que adquirí más herramientas y habilidades, permitiéndome expandir las posibilidades creativas y ofrecer un abanico más amplio de productos. En ese camino de crecimiento y exploración, se unió a Plastishop una persona fundamental: Nidia, mi madre. Su creatividad sin límites y su deseo innato de crear nos complementan de manera perfecta.
+                    Juntas, nos enfrentamos al desafío de no saber qué nos depara el futuro, pero con la determinación de seguir creciendo. En Plastishop, nuestro compromiso es ayudarte a materializar tus ideas, aportando color y vida a cada proyecto. No solo somos un equipo, somos una familia creativa en constante evolución. No importa lo que el mañana nos depare, estamos aquí para seguir creciendo y para ayudarte a crear lo que te imagines.
+                </p>
+            </article>
         
-            <!-- Descripción de Guille. -->
-        <article class="desc_guille">
-            
-            <h2>Mi nombre es Guillermina</h2>       
-                
-            <img class="img_guille" src="../images/guille.png" alt="Guille">
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quasi veritatis dicta distinctio qui minus a voluptas culpa, fuga aut rem, ipsa, quidem esse voluptatum necessitatibus ullam. Rem, quod dicta?
-            Porro itaque veniam aliquam impedit. Nam laboriosam nulla atque. Necessitatibus recusandae praesentium officiis, tempore expedita numquam nulla nihil, nesciunt tenetur, minus excepturi libero possimus magnam eligendi consequuntur adipisci accusantium nostrum.</p>
-        </article>
-
-            <!-- Descripción de Nidia. -->
-        <article class="desc_nidia">
-            
-            <h2>Mi nombre es Nidia</h2>
-
-            <img src="../images/nidia.png" alt="Nidia">
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique laborum alias, non facere possimus blanditiis tempora laboriosam, sunt accusamus, rem assumenda ea. Officiis quod in ratione earum doloremque. Fugiat.
-            Voluptates nihil asperiores, eos qui eaque, illo, consectetur iste provident dolore quidem minus unde error nostrum? Ipsa rerum illo pariatur earum, est tempora animi, laboriosam magni, commodi quisquam ullam id!</p>
-        </article>
-
+            <!-- Segundo artículo (Guillermina) -->
+            <article class="descrip desc_guille">
+                <h2>Mi nombre es Guillermina</h2>
+                <img src="../images/guille.png" alt="Guille">
+                <p>
+                    ¡Hola! Soy Guillermina, maestra y profe de inglés. Me encanta tomar mate con tortas fritas cuando llueve. Mi vida está llena de risas gracias a la gente que me rodea. Disfruto mi trabajo y la emoción de explorar nuevos lugares y conocer gente fascinante. Acompáñame en este viaje lleno de enseñanzas, amistades y aventuras. ¡Bienvenidos!
+                </p>
+            </article>
+        
+            <!-- Tercer artículo (Nidia) -->
+            <article class="descrip desc_nidia">
+                <h2>Mi nombre es Nidia</h2>
+                <img src="../images/nidia.png" alt="Nidia">
+                <p>
+                    ¡Hola, soy Nidia! Soy maestra y la mamá de Guile. Además de disfrutar de la enseñanza, encuentro mi creatividad en el arte de tejer y las manualidades. Siempre estoy pensando en nuevos proyectos donde pueda implementar mis habilidades, y es así como me uní a Plastishop. Únete a nosotros en esta aventura donde la enseñanza y la creatividad se unen para crear lo que te imagines. ¡Bienvenidos!
+                </p>
+            </article>
+        </div>
         <a href="/pages/nosotros.html"><button class="up">Volver arriba</button></a>
+
         
 
     </main>
@@ -105,6 +125,10 @@
         
 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 

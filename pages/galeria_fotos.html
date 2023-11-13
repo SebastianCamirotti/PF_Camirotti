@@ -16,98 +16,238 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
 
     <link rel="icon" href="../images/logo2.ico">
+    
+    <link rel="stylesheet" href="/css/bootstrap.css">
 
     <link rel="stylesheet" href="../css/style.css">
+
+    
 
     <title>Plastishop</title>
 
 </head>
 <body>
 
-    <header>
-        <!-- Barra de navegación -->
-        <nav class="navegation">
-            <div class="logo_container">
-                <img src="../images/logo.png" alt="logo_plastishop" class="logo"> <h1>Plastishop</h1>
-                <p>Hacemos realidad tus ideas</p>
-                
-            </div>
+    <header id="inicio">
 
-            <ul class="nav_list">
-                <li class="nav_item"><a href="/index.html">Inicio</a></li>
-                <li class="nav_item"><a href="../pages/galeria_fotos.html">Galería de fotos</a></li>
-                <li class="nav_item"><a href="../pages/personalizados.html">Personalizados</a></li>
-                <li class="nav_item"><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li class="nav_item"><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="logo_container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="../images/logo.png" alt="logo_plastishop" class="logo">
+                            </div>
+                            <div class="col-md-6">
+                                <h1>Plastishop</h1>
+                                <p>Hacemos realidad tus ideas</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Barra de navegación -->
+                    <nav class="navbar navbar-expand-lg navegation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="../pages/galeria_fotos.html">Galería de fotos</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="../pages/personalizados.html">Personalizados</a></li>
+                                <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Nosotros</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="../pages/contacto.html">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+
     </header>
 
-    <main id="galeria_fotos">
+
+        
+
+
+    <main class="container" id="galeria_fotos">
+
         <h2>Galería de fotos</h2>
-         <section id="velas">
 
-            <h2>Velas</h2>
+        <h2>Velas</h2>
+        
+        <section class="galeria-section">
+        
+            <div class="row">
 
-            <img class="velas7" src="/images/velas_en_general/velas7.jpg" alt="velas de plantas">
-            <img class="velas9" src="/images/velas_en_general/velas9.jpg" alt="velas de hilo">
-            <img class="velas2" src="/images/velas_en_general/velas3.jpg" alt="velas en macetas">
-            <img class="velas6" src="/images/velas_en_general/velas6.jpg" alt="velas de flores">
-            <img class="velas4" src="/images/velas_en_general/velas4.jpg" alt="velas de ostras">
-            <img class="velas11" src="/images/velas_en_general/velas1.jpg" alt="velas cilindricas">
-         </section>
+                <div class="col-md-4"><img class="img-fluid" src="/images/velas_en_general/velas7.jpg" alt="velas de plantas">
+                </div>
 
-        <section id="pinatas">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/velas_en_general/velas9.jpg" alt="velas de hilo">
+                </div>
 
-            <h2>Piñatas</h2>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/velas_en_general/velas3.jpg" alt="velas en macetas">
+                </div>
 
-            <img class="pinata8" src="/images/pinatas/pinata8.jpg" alt="pinata poni">
-            <img class="pinata7" src="/images/pinatas/pinata7.jpg" alt="pinata osos">
-            <img class="pinata3" src="/images/pinatas/pinata3.jpg" alt="pinata mariposa">
-            <img class="pinata2" src="/images/pinatas/pinata2.jpg" alt="pinata vaca">
-            <img class="pinata1" src="/images/pinatas/pinata1.jpg" alt="pinata copa del mundo">
-            <img class="pinata6" src="/images/pinatas/pinata6.jpg" alt="pinata cola de sirena">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/velas_en_general/velas6.jpg" alt="velas de flores">
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/velas_en_general/velas4.jpg" alt="velas de ostras">
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/velas_en_general/velas1.jpg" alt="velas cilindricas">
+                </div>
+
+            </div>
+            
         </section>
+          
+          <h2>Piñatas</h2>
 
-        <section id="sublimados">
+        <section class="galeria-section">
+        
+            <div class="row">
+
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/pinatas/pinata8.jpg" alt="pinata poni">
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/pinatas/pinata7.jpg" alt="pinata osos">
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/pinatas/pinata3.jpg" alt="pinata mariposa">
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/pinatas/pinata2.jpg" alt="pinata vaca">
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/pinatas/pinata1.jpg" alt="pinata copa del mundo">
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/pinatas/pinata6.jpg" alt="pinata cola de sirena">
+                </div>
+
+            </div>
+            
+        </section>
 
             <h2>Sublimados</h2>
 
-            <img src="/images/sublimados/sublimado1.jpg" alt="taza personalida">
-            <img src="/images/sublimados/sublimado2.jpg" alt="taza personalizada 2">
-            <img src="/images/sublimados/sublimado3.jpg" alt="tablas sublimadas">
-            <img src="/images/sublimados/sublimado4.jpg" alt="vasos y tablas sublimadas">
-            <img src="/images/sublimados/sublimado5.jpg" alt="imagen you can do it">
-            <img src="/images/sublimados/sublimado6.jpg" alt="imagen Michael Jackson">
-
-        </section id="wax_melt">
+            <section class="galeria-section">
+        
+                <div class="row">
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/sublimados/sublimado1.jpg" alt="taza personalida">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/sublimados/sublimado2.jpg" alt="taza personalizada 2">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/sublimados/sublimado3.jpg" alt="tablas sublimadas">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/sublimados/sublimado4.jpg" alt="vasos y tablas sublimadas">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/sublimados/sublimado5.jpg" alt="imagen you can do it">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/sublimados/sublimado6.jpg" alt="imagen Michael Jackson">
+                    </div>
+    
+                </div>
+            </section>
 
             <h2>Wax Melt</h2>
 
-            <img src="/images/wax_melt/wax_melt6.png" alt="wax melt varios">
-            <img src="/images/wax_melt/wax_melt2.jpg" alt="hornitos de wax melt">
-            <img src="/images/wax_melt/wax_melt3.jpg" alt="wax melt">
-            <img src="/images/wax_melt/wax_melt4.jpg" alt="wax melt varios">
-            <img src="/images/wax_melt/wax_melt5.jpg" alt="wax melt varios">
-            <img src="/images/wax_melt/wax_melt1.jpg" alt="hornitos de wax melt">
-            
-        </section>
-
-        <section id="velas_soja">
+            <section class="galeria-section">
+        
+                <div class="row">
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/wax_melt/wax_melt6.png" alt="wax melt varios">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/wax_melt/wax_melt2.jpg" alt="hornitos de wax melt">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/wax_melt/wax_melt3.jpg" alt="wax melt">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/wax_melt/wax_melt4.jpg" alt="wax melt varios">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/wax_melt/wax_melt5.jpg" alt="wax melt varios">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/wax_melt/wax_melt1.jpg" alt="hornitos de wax melt">
+                    </div>
+    
+                </div>
+            </section>
 
             <h2>Velas de soja</h2>
 
-            <img src="/images/velas_de_soja/vela_soja3.jpg" alt="vela de soja">
-            <img src="/images/velas_de_soja/vela_soja6.jpg" alt="vela de soja">
-            <img src="/images/velas_de_soja/vela_soja1.jpg" alt="vela de soja">
-            <img src="/images/velas_de_soja/vela_soja2.jpg" alt="vela de soja">
-            <img src="/images/velas_de_soja/vela_soja4.jpg" alt="vela de soja">
-            <img src="/images/velas_de_soja/vela_soja5.jpg" alt="vela de soja">
-            
-        </section>
-
+            <section class="galeria-section">
         
-            <a href="/pages/personalizados.html"><button class="art_pers">Articulos personalizados</button></a>
+                <div class="row">
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/velas_de_soja/vela_soja3.jpg" alt="vela de soja">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/velas_de_soja/vela_soja6.jpg" alt="vela de soja">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/velas_de_soja/vela_soja1.jpg" alt="vela de soja">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/velas_de_soja/vela_soja2.jpg" alt="vela de soja">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/velas_de_soja/vela_soja4.jpg" alt="vela de soja">
+                    </div>
+    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="/images/velas_de_soja/vela_soja5.jpg" alt="vela de soja">
+                    </div>
+    
+                </div>
+            </section>
+            <a class="art_pers" href="/pages/personalizados.html"><button class="btn_art_pers" >Articulos personalizados</button></a>
 
             <a href="/pages/galeria_fotos.html"><button class="up">Volver arriba</button></a>
        
@@ -127,5 +267,9 @@
 
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
 </body>
 </html>
