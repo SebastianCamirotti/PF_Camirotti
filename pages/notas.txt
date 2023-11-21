@@ -1,0 +1,9 @@
+Paleta de colores.
+
+Color principal del fondo #f2c4cd
+
+Color de la fuente #266271
+
+Color de marcos #ecacb8
+
+Color de bordes #BFA965
