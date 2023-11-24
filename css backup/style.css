@@ -320,6 +320,7 @@ footer .footer_txt {
     font-size: larger;
     display: inline;
     position: relative;
+    text-align: end;
 
 }
 
