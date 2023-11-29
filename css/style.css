@@ -205,11 +205,12 @@ h2 {
 
 /* GALERIA DE FOTOS */
 /* PERSONALIZADOS */
-#personalizados img {
-  position: relative;
-  width: 350px;
-  margin: 10px;
-  border: solid 5px #BFA965;
+.personalizados img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  border: solid #BFA965;
+  margin-bottom: 10px;
 }
 
 /* PERSONALIZADOS */

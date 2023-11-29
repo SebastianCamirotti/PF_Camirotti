@@ -221,11 +221,14 @@ h2 {
 
 /* PERSONALIZADOS */
 
-#personalizados img {
-    position: relative;
-    width: 350px;
-    margin: 10px;
-    border: solid 5px $bdr-color;
+.personalizados {
+    img{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        border: solid $bdr-color;
+        margin-bottom: 10px;
+    }
 }
 /* PERSONALIZADOS */
 
