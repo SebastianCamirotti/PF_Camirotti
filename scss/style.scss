@@ -91,12 +91,19 @@ body{
 
 /* --- Galería de inicio --- */
 
-/*  ----- Ver como se centra ----- */
-.carousel-inner {
+.carousel{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    .carousel-inner {
+        max-width: 55%;
+        height: auto;
+        border: solid $bdr-color;
+    }
     
-    max-width: 800px;
-    max-height: 800px;
+    
 }
+
 /* --- Galería de inicio --- */
 
 .txt_container {
@@ -172,14 +179,6 @@ body{
 
 /* GALERIA DE FOTOS */
 
-#galeria_fotos img {
-    position: relative;
-    left: 50px;
-    width: 350px;
-    margin: 10px;
-    border: solid 5px $bdr-color;
-}
-
 h2 {
     display: flex;
     font-family:'Dancing Script', cursive;
@@ -193,14 +192,14 @@ h2 {
     border:  #BFA965;
 }
 
-.galeria {
-    display: flex;
-    justify-content: center;
-
-}
-.art_pers {
-    display: flex;
-    justify-content: center;
+.galeria-section{
+    img{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        border: solid $bdr-color;
+        margin-bottom: 10px;
+    }
 }
 
 .btn_art_pers {

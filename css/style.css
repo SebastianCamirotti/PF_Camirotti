@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Second BackGround color */
+/* BorDeR */
 * {
   margin: 0;
   padding: 0;
@@ -84,10 +86,15 @@ body {
 
 /* --- Nav bar --- */
 /* --- Galería de inicio --- */
-/*  ----- Ver como se centra ----- */
-.carousel-inner {
-  max-width: 800px;
-  max-height: 800px;
+.carousel {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.carousel .carousel-inner {
+  max-width: 55%;
+  height: auto;
+  border: solid #BFA965;
 }
 
 /* --- Galería de inicio --- */
@@ -159,14 +166,6 @@ body {
 
 /* INDEX */
 /* GALERIA DE FOTOS */
-#galeria_fotos img {
-  position: relative;
-  left: 50px;
-  width: 350px;
-  margin: 10px;
-  border: solid 5px #BFA965;
-}
-
 h2 {
   display: flex;
   font-family: "Dancing Script", cursive;
@@ -180,14 +179,12 @@ h2 {
   border: #BFA965;
 }
 
-.galeria {
+.galeria-section img {
   display: flex;
   justify-content: center;
-}
-
-.art_pers {
-  display: flex;
-  justify-content: center;
+  max-width: 100%;
+  border: solid #BFA965;
+  margin-bottom: 10px;
 }
 
 .btn_art_pers {
