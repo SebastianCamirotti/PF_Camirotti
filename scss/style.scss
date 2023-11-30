@@ -192,14 +192,16 @@ h2 {
     border:  #BFA965;
 }
 
-.galeria-section{
-    img{
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-        border: solid $bdr-color;
-        margin-bottom: 10px;
-    }
+.imagen{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    border: solid $bdr-color;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+.imagen:hover{
+    transform: scale(1.2);
 }
 
 .btn_art_pers {
