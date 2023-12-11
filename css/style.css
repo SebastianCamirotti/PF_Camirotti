@@ -47,11 +47,11 @@ body {
 
 /* --- Header --- */
 /* --- Nav bar --- */
-/* .navigation {
+.navigation {
   display: flex;
   justify-content: center;
   background-color: #f2f2f2;
-} */
+}
 
 .nav_list {
   display: flex;
