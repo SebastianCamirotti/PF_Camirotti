@@ -315,4 +315,25 @@ li {
   color: #ecacb8;
 }
 
+/* ERROR 404 */
+.error {
+  font-size: 8em;
+  color: #e74c3c;
+  margin: 0;
+}
+
+.p-error {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.p-error:hover {
+  background-color: #2980b9;
+}
+
 /*# sourceMappingURL=style.css.map */
