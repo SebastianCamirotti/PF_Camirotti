@@ -332,25 +332,26 @@ li {
 }
 
 /* ERROR 404 */
-
-.error {
-    font-size: 8em;
-    color: #e74c3c;
-    margin: 0;
+.error404{
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    color: $font-color;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 0 10px;
 }
 
-.p-error {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    &:hover {
-    background-color: #2980b9;
+.p-404, .inicio404{
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: $font-color;
+    margin: 50px;
 }
 
+.inicio404:hover{
+    background-color: $font-color;
+    color: #ecacb8;
 }
-
